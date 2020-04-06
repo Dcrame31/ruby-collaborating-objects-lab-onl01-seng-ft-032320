@@ -3,7 +3,7 @@ class MP3Importer
   
   #parse files and send filenames to Song class
   def initialize(path)
-    @path
+    @path= path
   end
   
   def files
